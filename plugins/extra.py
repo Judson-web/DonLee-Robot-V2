@@ -26,11 +26,11 @@ async def showid(client, message):
         user_id = message.from_user.id
         chat_id = message.chat.id
         if message.reply_to_message:
-            reply_id = f"Replied User ID : `{message.reply_to_message.from_user.id}`"
+            reply_id = f"Rᴇᴘʟɪᴇᴅ Usᴇʀ ID : `{message.reply_to_message.from_user.id}`"
         else:
             reply_id = ""
         await message.reply_text(
-            f"Your ID : `{user_id}`\nThis Group ID : `{chat_id}`\n\n{reply_id}",
+            f"Yᴏᴜʀ ID : `{user_id}`\nTʜɪs Gʀᴏᴜᴘ ID : `{chat_id}`\n\n{reply_id}",
             parse_mode="md",
             quote=True
         )   
@@ -90,10 +90,10 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>👨‍💼Name</b> : {name}\n\n"
-        f"<b>📃User ID</b> : <code>{id}</code>\n\n"
-        f"<b>👤Username</b> : {user_name}\n\n"
-        f"<b>🔐Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
+        f"<b>👨‍💼Nᴀᴍᴇ</b> : {name}\n\n"
+        f"<b>📃Usᴇʀ ID</b> : <code>{id}</code>\n\n"
+        f"<b>👤Usᴇʀɴᴀᴍᴇ</b> : {user_name}\n\n"
+        f"<b>🔐Pᴇʀᴍᴀɴᴀɴᴛ USER ʟɪɴᴋ</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
         f"<b>📑DC ID</b> : {dcid}\n\n",
         quote=True,
         parse_mode="html"
@@ -181,7 +181,7 @@ async def ban(bot, message):
         if userid in admins:
             user_to_ban = message.reply_to_message.from_user.id
             if user_to_ban in admins:
-                await message.reply(text="Think he is Admin, Can't Ban Admins")
+                await message.reply(text="Tʜɪɴᴋ ʜᴇ ɪs Aᴅᴍɪɴ, Cᴀɴ'ᴛ Bᴀɴ Aᴅᴍɪɴs")
             else:
                 try:
                     await bot.kick_chat_member(chat_id=chatid, user_id=user_to_ban)
@@ -191,7 +191,7 @@ async def ban(bot, message):
                 except Exception as error:
                     await message.reply_text(f"{error}")
         else:
-            await message.reply_text("Nice try, But wrong move..")
+            await message.reply_text("Nɪᴄᴇ ᴛʀʏ, Bᴜᴛ ᴡʀᴏɴɢ ᴍᴏᴠᴇ..")
             return
     else:
         return
@@ -213,7 +213,7 @@ async def ban(bot, message):
         if userid in admins:
             user_to_ban = message.reply_to_message.from_user.id
             if user_to_unban in admins:
-                await message.reply(text="Think he is Admin, Can't Ban Admins")
+                await message.reply(text="Tʜɪɴᴋ ʜᴇ ɪs Aᴅᴍɪɴ, Cᴀɴ'ᴛ Bᴀɴ Aᴅᴍɪɴs")
             else:
                 try:
                     await bot.unban_chat_member(chat_id=chatid, user_id=user_to_unban)
@@ -223,7 +223,7 @@ async def ban(bot, message):
                 except Exception as error:
                     await message.reply_text(f"{error}")
         else:
-            await message.reply_text("Nice try, But wrong move..")
+            await message.reply_text("Nɪᴄᴇ ᴛʀʏ, Bᴜᴛ ᴡʀᴏɴɢ ᴍᴏᴠᴇ..")
             return
     else:
         return
