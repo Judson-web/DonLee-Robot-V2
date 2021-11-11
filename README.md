@@ -1,47 +1,28 @@
 <p align="center">
-<img src="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/main/DONLEE-ROBOT-V2/DonLee_Robot.jpg" alt="Eva Maria Logo">
+<img src="https://vignette.wikia.nocookie.net/villains/images/5/5f/JerryMouse.png/revision/latest?cb=20200120024845" alt="Jerry Logo">
 </p>
 
 <p align="center">
-🤖 𝐃𝐎𝐍 𝐋𝐄𝐄 𝐑𝐎𝐁𝐎𝐓 𝐕𝟐 🤖
+🤖 Jerry 🤖
 </p>
 
 <p align="center">
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/stargazers"><img alt="github" src="https://img.shields.io/github/stars/PR0FESS0R-99/DonLee-Robot-V2?style=flat-square&color=yellow"/></a>
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/fork"><img alt="github" src="https://img.shields.io/github/forks/PR0FESS0R-99/DonLee-Robot-V2?style=flat-square&color=orange"/></a>
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2"><img alt="github" src="https://img.shields.io/github/repo-size/PR0FESS0R-99/DonLee-Robot-V2?style=flat-square&color=green"/></a>
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2a"><img alt="github" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/graphs/contributors"><img alt="github" src="https://img.shields.io/github/contributors/PR0FESS0R-99/DonLee-Robot-V2?style=flat-square&color=green"/></a>      
-<a href="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/main/LICENSE"><img alt="github" src="https://img.shields.io/badge/License-AGPL-blue"/></a>
+<a href="https://github.com/Judson-web/Jerry/stargazers"><img alt="github" src="https://img.shields.io/github/stars/Judson-web/Jerry?style=flat-square&color=yellow"/></a>
+<a href="https://github.com/Judson-web/Jerry/fork"><img alt="github" src="https://img.shields.io/github/forks/Judson-web/Jerry?style=flat-square&color=orange"/></a>
+<a href="https://github.com/Judson-web/Jerry"><img alt="github" src="https://img.shields.io/github/repo-size/Judson-web/Jerry?style=flat-square&color=green"/></a>
+<a href="https://github.com/Judson-web/Jerry"><img alt="github" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
+<a href="https://github.com/Judson-web/Jerry/graphs/contributors"><img alt="github" src="https://img.shields.io/github/contributors/Judson-web/Jerry?style=flat-square&color=green"/></a>      
+<a href="https://github.com/Judson-web/Jerry/blob/main/LICENSE"><img alt="github" src="https://img.shields.io/badge/License-AGPL-blue"/></a>
 </p>
 
-👋Hey <a href="https://telegram.dog/Mrk_YT">Muhammed</a>, Iam <a href="https://telegram.me/Donlee_Robot">DonLee RoBoT</a>
+👋Hey <a href="https://telegram.dog/Mrk_YT">Muhammed</a>, Iam <a href="https://telegram.me/JerryV3Bot">Jerry</a>
 Make me an admin for your group and channel then connect me....🎉
-🙂To build a DonLee robot V2 like me, click on the <a href="https://telegram.dog/Donlee_Robot">/subscribe</a> command
+🙂To build a DonLee robot V2 like me, click on the <a href="https://telegram.dog/JerryV3Bot">/subscribe</a> command
 Subscribe to the update channel to learn about my updates and activity...
-Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a> Command for more information
-🧒 Maintained By <a href="https://t.me/Mrk_yt">This Person</a>     
+Click on the Help Button or <a href="https://telegram.me/JerryV3Bot">/help</a> Command for more information
+🧒 Maintained By <a href="https://github.com/Judson-web">This Person</a>     
    
 ----
-
-<p align="center">
-↪️ 𝐑𝐄𝐏𝐎𝐒𝐈𝐓𝐎𝐑𝐘 𝐒𝐓𝐀𝐓𝐔𝐒 ↩️
-</p>
-
-[![DONLEEROBOTV2](https://github-readme-stats.vercel.app/api/pin/?username=PR0FESS0R-99&repo=DonLee-Robot-V2)](https://github.com/PR0FESS0R-99/DonLee-Robot-V2)
-
-
-----
-
-<p align="center">
-↪️ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐕𝐈𝐃𝐄𝐎 ↩️
-</p>
-
-<a href="https://youtu.be/NrbMc93aCzA"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/NrbMc93aCzA"><img src="https://img.shields.io/youtube/views/NrbMc93aCzA?style=social"></a>
-
-----
-
 
 <p align="center">
 ↪️ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 ↩️
@@ -108,30 +89,6 @@ Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a
 - `SESSION_FILE` : From [Click Here](https://youtu.be/WUN_12-dYOM)
 - `SPELLING_MODE_TEXT` : Demo Text From [click here](https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/26510e3ed0cd0bc222f3fb1560925f36e2904ecf/translation.py#L17)
 - `WELCOME_ENABLE_OR_DISABLE` : Do you want a welcome message? Type Yes if necessary and No if not required
-- `WELCOME_TEXT` : Demo text from [Click here](https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/26510e3ed0cd0bc222f3fb1560925f36e2904ecf/config.py#L26)
+- `WELCOME_TEXT` : [none]
 
-----
-
-<p align="center">
-↪️ 𝐂𝐑𝐄𝐃𝐈𝐓𝐒 ↩️
-</p>
-
-- Thanks To [Donlee_RoBot V1](https://github.com/PR0FESS0R-99/DonLee-robot-V1)
-- Thanks To [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Thanks To Me ](https://github.com/PR0FESS0R-99)
-----
-----
-* [Pr0fess0r-99](https://github.com/Pr0fess0r-99)
-* [Auto-Welcome-Bot](https://github.com/Pr0fess0r-99/Auto-Welcome-Bot)
-* [Broadcast-Bot](https://github.com/PR0FESS0R-99/Broadcast-Bot)
-* [Ban-and-unban-Bot](https://github.com/PR0FESS0R-99/Ban-and-unBan-Bot)
-----
-----
-
-* Thanks To [Donlee_RoBot V1](https://github.com/PR0FESS0R-99/DonLee-robot-V1) IMDB Poster
-* Thanks To [bughunter0](https://github.com/bughunter0/ban-bot) Ban Bot
-* Thanks To [CrazyBotsz](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2) Adv AutoFilter V2
-* Thanks To [TroJanzHEX](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) Manual Filter
-* Thanks To [EvamariaTG](https://github.com/EvamariaTG/EvaMaria) IMDB Raiting
-----
 ----
