@@ -80,7 +80,7 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/EvaMariaBot?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/JerryV3Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
@@ -109,11 +109,11 @@ async def help(bot, message):
                          InlineKeyboardButton("🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ", callback_data="autofilter1")
                     ],
                     [
-                         InlineKeyboardButton("Extra Mode♂️", callback_data="info"),
-                         InlineKeyboardButton("🖇️ Connection", callback_data="connection")
+                         InlineKeyboardButton("🤫 Exᴛʀᴀ Mᴏᴅᴇ", callback_data="info"),
+                         InlineKeyboardButton("🖇️ Cᴏɴɴᴇᴄᴛɪᴏɴ", callback_data="connection")
                     ],
                     [
-                         InlineKeyboardButton("🔰 Status 🔰", callback_data="ooooooooo")
+                         InlineKeyboardButton("🔰 Sᴛᴀᴛᴜs 🔰", callback_data="ooooooooo")
                     ],
                     [
                          InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
