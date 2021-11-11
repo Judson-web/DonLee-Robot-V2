@@ -221,8 +221,8 @@ async def cb_handler(client, query):
                        InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{BOT_USERNAME}?startgroup=true')
                    ],
                    [
-                       InlineKeyboardButton(GROUP, url=AA),
-                       InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
+                       InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
+                       InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
                    ],
                    [
                        InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
