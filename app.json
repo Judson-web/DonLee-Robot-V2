@@ -33,7 +33,7 @@
         },
         "FORCE_CHANNEL": {
             "description": "FORCE_CHANNEL Your Update Channel (without @)",
-            "value": "MO_TECH_YT"
+            "value": "TV_SeriesCourt"
         },
         "CUSTOM_CAPTION": {
             "description": "file Custom Caption",
@@ -42,21 +42,21 @@
         },
         "BOT_USERNAME": {
             "description": "BOT_USERNAME Your Bot User Name From Botfather",
-            "value": "DonLee_Robot",
+            "value": "JerryV3Bot",
             "required": false
         },
         "DEV_USERNAME": {
             "description": "Master (your) Telagarm Useraname from @MT_ID_Bot (Without @)",
-            "value": "Mrk_YT",
+            "value": "Terror Mickey",
             "required": false
         },
         "DEV_NAME": {
             "description": "Your Name DEV_NAME",
-            "value": "Muhammed",
+            "value": "VAMPIRE_KING_NO_1",
             "required": false
         },
         "DEV_ID": {
-            "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @)",
+            "description": "Master (your) Telagarm id from @MissRose_bot (Without @)",
             "value": "",
             "required": false
         },
