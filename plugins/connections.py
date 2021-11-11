@@ -15,9 +15,9 @@ async def addconnection(client,message):
             cmd, group_id = message.text.split(" ", 1)
         except:
             await message.reply_text(
-                "<b>Enter in correct format!</b>\n\n"
-                "<code>/connect groupid</code>\n\n"
-                "<i>Get your Group id by adding this bot to your group and use  <code>/id</code></i>",
+                "<b>Eɴᴛᴇʀ ɪɴ ᴄᴏʀʀᴇᴄᴛ ғᴏʀᴍᴀᴛ!</b>\n\n"
+                "<code>/connect ɢʀᴏᴜᴘɪᴅ</code>\n\n"
+                "<i>Gᴇᴛ ʏᴏᴜʀ Gʀᴏᴜᴘ ɪᴅ ʙʏ ᴀᴅᴅɪɴɢ ᴛʜɪs ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴜsᴇ  <code>/id</code></i>",
                 quote=True
             )
             return
@@ -30,7 +30,7 @@ async def addconnection(client,message):
         if (st.status == "administrator") or (st.status == "creator") or (str(userid) in Config.AUTH_USERS):
             pass
         else:
-            await message.reply_text("You should be an admin in Given group!", quote=True)
+            await message.reply_text("Yᴏᴜ sʜᴏᴜʟᴅ ʙᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ Gɪᴠᴇɴ ɢʀᴏᴜᴘ!", quote=True)
             return
     except Exception as e:
         print(e)
@@ -49,7 +49,7 @@ async def addconnection(client,message):
             addcon = await add_connection(str(group_id), str(userid))
             if addcon:
                 await message.reply_text(
-                    f"Sucessfully connected to **{title}**\nNow manage your group from my pm !",
+                    f"Sᴜᴄᴇssғᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ **{title}**\nNᴏᴡ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ ᴍʏ ᴘᴍ !",
                     quote=True,
                     parse_mode="md"
                 )
@@ -61,11 +61,11 @@ async def addconnection(client,message):
                     )
             else:
                 await message.reply_text(
-                    "You're already connected to this chat!",
+                    "Yᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴛʜɪs ᴄʜᴀᴛ!",
                     quote=True
                 )
         else:
-            await message.reply_text("Add me as an admin in group", quote=True)
+            await message.reply_text("Aᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ", quote=True)
     except Exception as e:
         print(e)
         await message.reply_text(
