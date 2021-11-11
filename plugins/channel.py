@@ -16,7 +16,7 @@ db = Database()
 @Client.on_message(filters.command(["addchannel"]) & filters.group, group=1)
 async def connect(bot: DonLee_Robot, update):
     """
-    A Funtion To Handle Incoming /addchannel Command To Connect A Chat With Group
+    A Fᴜɴᴛɪᴏɴ Tᴏ Hᴀɴᴅʟᴇ Iɴᴄᴏᴍɪɴɢ /addchannel Cᴏᴍᴍᴀɴᴅ Tᴏ Cᴏɴɴᴇᴄᴛ A Cʜᴀᴛ Wɪᴛʜ Gʀᴏᴜᴘ
     """
     chat_id = update.chat.id
     user_id = update.from_user.id if update.from_user else None
@@ -85,10 +85,10 @@ async def connect(bot: DonLee_Robot, update):
     in_db = await db.in_db(chat_id, channel_id)
     
     if in_db:
-        await update.reply_text("Channel Aldready In Database...!!!")
+        await update.reply_text("Cʜᴀɴɴᴇʟ Aʟᴅʀᴇᴀᴅʏ Iɴ Dᴀᴛᴀʙᴀsᴇ...!!!")
         return
     
-    wait_msg = await update.reply_text(f"Hey {update.from_user.mention} Please Wait Adding Your Channel in Database")
+    wait_msg = await update.reply_text(f"Hᴇʏ {update.from_user.mention} Pʟᴇᴀsᴇ Wᴀɪᴛ Aᴅᴅɪɴɢ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ɪɴ Dᴀᴛᴀʙᴀsᴇ")
     
     try:
         type_list = ["video", "audio", "document"]
@@ -191,13 +191,13 @@ async def connect(bot: DonLee_Robot, update):
     await db.add_chat(chat_id, channel_id, channel_name)
     await recacher(chat_id, True, True, bot, update)
     
-    await wait_msg.edit_text(f"Channel Was Sucessfully Added in My Database \n\nTotal Files : <code>{len(data)}</code>")
+    await wait_msg.edit_text(f"Cʜᴀɴɴᴇʟ Wᴀs Sᴜᴄᴇssғᴜʟʟʏ Aᴅᴅᴇᴅ ɪɴ Mʏ Dᴀᴛᴀʙᴀsᴇ \n\nTᴏᴛᴀʟ Fɪʟᴇs : <code>{len(data)}</code>")
 
 
 @Client.on_message(filters.command(["delchannel"]) & filters.group, group=1)
 async def disconnect(bot: DonLee_Robot, update):
     """
-    A Funtion To Handle Incoming /del Command TO Disconnect A Chat With A Group
+    A Fᴜɴᴛɪᴏɴ Tᴏ Hᴀɴᴅʟᴇ Iɴᴄᴏᴍɪɴɢ /del Cᴏᴍᴍᴀɴᴅ TO Dɪsᴄᴏɴɴᴇᴄᴛ A Cʜᴀᴛ Wɪᴛʜ A Gʀᴏᴜᴘ
     """
     chat_id = update.chat.id
     user_id = update.from_user.id if update.from_user else None
@@ -357,4 +357,4 @@ async def new_files(bot: DonLee_Robot, update):
         await db.add_filters(data)
     return
 
-runing = """Team mo tech"""
+runing = """Team Stm"""
