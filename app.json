@@ -7,16 +7,16 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "repository": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "success_url": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
+    "website": "https://github.com/Judson-web/Jerry",
+    "repository": "https://github.com/Judson-web/Jerry",
+    "success_url": "https://github.com/Judson-web/Jerry",
     "env": {
         "API_ID": {
-            "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
+            "description": "Your APP ID From my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @MT_MytelegramOrg_Bot",
+            "description": "Your API Hash From my.telegram.org",
             "value": ""
         },
         "BOT_TOKEN": {
@@ -24,7 +24,7 @@
             "value": ""
         },
         "SESSION_FILE": {
-            "description": "SESSION_FILE From https://youtu.be/WUN_12-dYOM",
+            "description": "SESSION STRING From https://youtu.be/WUN_12-dYOM",
             "value": ""
         },
         "DATABASE_URI": {
@@ -86,7 +86,7 @@
             "required": false
         },
         "PHOTOS": {
-            "description": "Bot Pics (Start Help about) random pics @MT_Telegraph_Bot",
+            "description": "Bot Pics (Start Help about) random pics @tele_graph_uploader_probot",
             "value": "",
             "required": false
         },
