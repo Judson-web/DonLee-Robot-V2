@@ -1,9 +1,15 @@
 class Translation(object):
 
-    HELP_TEXT = """<b><u>BASIC COMMANDS</u></b>\n\n • /start :- Check Iam Alive\n • /help :- More Details\n • /about :- About Me\n • /sub :- Support and deploy\n • /stats :- User Count""" 
+    HELP_TEXT = """<b><u>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs</u></b>\n\n • /start :- Cʜᴇᴄᴋ Iᴀᴍ Aʟɪᴠᴇ\n • /help :- Mᴏʀᴇ Dᴇᴛᴀɪʟs\n • /about :- Aʙᴏᴜᴛ Mᴇ\n • /sub :- Sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴅᴇᴘʟᴏʏ\n • /stats :- Usᴇʀ Cᴏᴜɴᴛ""" 
     START_TEXT =  """Hᴇʟᴏ {},
 Mʏ Nᴀᴍᴇ Is <a href='http://t.me/JerryV3Bot'>ᴊᴇʀʀʏ</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 🐭"""
-    ABOUT_TEXT = """📃Bot : <a href="t.me/{}">DonLee Robot</a>\n🧒Dev : <a href="t.me/Mrk_yt">Muhammed</a>\n🧒Creator : <a href="t.me/{}">{}</a>\n📡Hosted On : <a href="https://t.me/Mo_Tech_YT/867">Heroku</a>\n🗣️Language : <a href="https://docs.pyrogram.org">Python3</a>\n📚Library : <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>\n🗒️Version : <a href="t.me/{}">2.9.0</a>\n📖Source Code : 🤐"""
+    ABOUT_TEXT = """✯ Mʏ Nᴀᴍᴇ: Mᴇᴘʜɪsᴛᴏ
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
+✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
+✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
+✯ Dᴀᴛᴀ Bᴀsᴇ: ᴍᴏɴɢᴏ ᴅʙ
+✯ ⲂⲞⲦ SᴇʀᴠᴇʀꞄ: Hᴇʀᴏᴋᴜ
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v1.0.1 [ Bᴇᴛᴀ ]"""
     FSUB_TEXT = """ഹേയ് {} തായേ കാണുന്ന ചാനലിൽ നിങ്ങൾ ഇല്ല അത് കൊണ്ട് നിങ്ങൾക് സിനിമ കിട്ടില്ല...\nസിനിമ കിട്ടാനായി താഴെ കാണുന്ന 🔔 Join എന്ന ബട്ടനിൽ ക്ലിക്ക് ചെയ്തു ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക എങ്കിൽ മാത്രമേ നിങ്ങൾക്ക് മൂവി ഈ ബോട്ട് വഴി ലഭിക്കുകയുള്ളു. അതു കഴ്ഞ്ഞു തായേ കാണുന്ന 👉"Try again"👈 എന്നുള്ളതിൽ ക്ലിക്ക് ചെയ്തു Start കൊടുത്താൽ നിങ്ങൾക്ക് മൂവി കിട്ടുന്നതാണ്...😁😁"""
     FILTER_TEXT = """<b><u>Manual Filter</u></b>\n\n• Add me as admin in your group and start filtering:\n\n<b><u>NOTE:</u></b>\n\n1. DonLee should have admin privillage.\n2. only admins can add filters in a chat.\n3. alert buttons have a limit of 64 characters.\n\n<b><u>Commands and Usage:</u></b>\n• /addfilter - Add filter for name\n• /filters - List all filters in chat\n• /delfilters - Delete filter\n• /delallfilters - Delete entire filters (Group Owner Only!)"""
     AUTOFILTER_TEXT = """<b><u>Auto Filter</u></b>\n\n<b><u>🤖 Bot Commands 🤖</u></b>\n  <code>(Works Only In Groups):</code>\n\n<b><u>Add CMD</u></b>\n  ☞ <code>/addchannel</code> <b>chat_id</b>\n  ☞ <code>/addchannel</code> <b>@Mo_Tech_YT</b>\n<b>- To Connect A Group With A Channel (Bot Should Be Admin With Full Previlages In Both Group And Channel)</b>\n\n<b><u>Deleted CMD</u></b>\n  ☞ <code>/delchannel</code> <b>chat_id</b>\n  ☞ <code>/delchannel</code> <b>@Mo_Tech_YT</b>\n<b>- To disconnect A Group With A Channel</i></b>"""
