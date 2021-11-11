@@ -218,15 +218,15 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.START_TEXT.format(query.from_user.mention, DEV_USERNAME), reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{BOT_USERNAME}?startgroup=true')
+                       InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{BOT_USERNAME}?startgroup=true')
                    ],
                    [
                        InlineKeyboardButton(GROUP, url=AA),
                        InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
                    ],
                    [
-                       InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-                       InlineKeyboardButton('😊 About', callback_data='about')
+                       InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
+                       InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
                    ]
                ]
            )  
@@ -235,20 +235,20 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.HELP_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                         InlineKeyboardButton("Filter♂️", callback_data="filter1"),
-                         InlineKeyboardButton("AutoFilter♂️", callback_data="autofilter1")
+                         InlineKeyboardButton("🙂 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ", callback_data="filter1"),
+                         InlineKeyboardButton("🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ", callback_data="autofilter1")
                    ],
                    [
-                         InlineKeyboardButton("Extra Mode♂️", callback_data="info"),
-                         InlineKeyboardButton("Connection♂️", callback_data="connection")
+                         InlineKeyboardButton("🤫 Exᴛʀᴀ Mᴏᴅᴇ", callback_data="info"),
+                         InlineKeyboardButton("🖇️ Cᴏɴɴᴇᴄᴛɪᴏɴ", callback_data="connection")
                    ],
                    [
-                         InlineKeyboardButton("🤠 Status 🤠", callback_data="ooooooooo")
+                         InlineKeyboardButton("🔰 Sᴛᴀᴛᴜs 🔰", callback_data="ooooooooo")
                    ],
-                   [
-                         InlineKeyboardButton("🏕️ Home", callback_data="start"),
+                    [
+                         InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
                          InlineKeyboardButton("🗑️ Close 🗑️", callback_data="close"),
-                         InlineKeyboardButton(" About 🔥", callback_data="about")
+                         InlineKeyboardButton("😎 Aʙᴏᴜᴛ", callback_data="about")
                    ]
                ]
            )  
@@ -257,12 +257,12 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.ABOUT_TEXT.format(BOT_USERNAME, DEV_USERNAME, DEV_NAME, BOT_USERNAME), reply_markup=InlineKeyboardMarkup(
                [
                    [
-                         InlineKeyboardButton("📦 Source", callback_data="source"),
-                         InlineKeyboardButton("Dev 🤠", callback_data="devmuhammed")
+                         InlineKeyboardButton("💜 Sᴏᴜʀᴄᴇ", callback_data="source"),
+                         InlineKeyboardButton("😎 Dᴇᴠ", callback_data="devmuhammed")
                    ],
                    [
-                         InlineKeyboardButton("🏕️ Home", callback_data="start"),
-                         InlineKeyboardButton("Close 🗑️", callback_data="close")
+                         InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
+                         InlineKeyboardButton("🗑️ Cʟᴏsᴇ", callback_data="close")
                    ]
                ]
            )
@@ -271,10 +271,10 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.AUTOFILTER_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("➡️ Next Page ➡️", callback_data="autofilter2")
+                       InlineKeyboardButton("♻️ Nᴇxᴛ Pᴀɢᴇ ♻️", callback_data="autofilter2")
                    ],
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton(" 🚶🏿Bᴀᴄᴋ🚶🏿", callback_data="help")
                    ]
                ]
            )
@@ -283,7 +283,7 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.AUTOFILTER_TEXT2, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back Page 🔙", callback_data="autofilter1")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ Pᴀɢᴇ 🚶🏿", callback_data="autofilter1")
                    ]
                ]
            )
@@ -292,7 +292,7 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.FILTER_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ Pᴀɢᴇ 🚶🏿", callback_data="help")
                    ]
                ]
            )
@@ -301,7 +301,7 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.CONNECTION_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ Pᴀɢᴇ 🚶🏿", callback_data="help")
                    ]
                ]
            )
@@ -310,8 +310,8 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.INFORMATION_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 BacK", callback_data="help"),
-                       InlineKeyboardButton("🙎‍♂️ Admins", callback_data="info")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ", callback_data="help"),
+                       InlineKeyboardButton("👑 Aᴅᴍɪɴs", callback_data="info")
                    ]
                ]
            )
@@ -320,7 +320,7 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.GROUP_ADMIN_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ", callback_data="help")
                    ]
                ]
            )
@@ -329,15 +329,15 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.SOURCE_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton('☢️Frok', url='https://github.com/PR0FESS0R-99/DonLee-Robot-V2/fork'),
-                       InlineKeyboardButton('🌟Star', url='https://github.com/PR0FESS0R-99/DonLee-Robot-V2/stargazers')
+                       InlineKeyboardButton('☢️ Fᴏʀᴋ', url='https://github.com/Judson-web/Jerry/fork'),
+                       InlineKeyboardButton('🌟 Sᴛᴀʀ', url='https://github.com/Judson-web/Jerry/stargazers')
                    ],
                    [
-                       InlineKeyboardButton('🏵Repo', url='https://youtu.be/NrbMc93aCzA'),
-                       InlineKeyboardButton('🧩Deplow', url='https://youtu.be/NrbMc93aCzA')
+                       InlineKeyboardButton('🏵 Rᴇᴘᴏ', url='https://github.com/Judson-web/Jerry'),
+                       InlineKeyboardButton('🧩 Dᴇᴘʟᴏʏ', url='https://heroku.com/deploy?template=https://github.com/Judson-web/Jerry/tree/master')
                    ],
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ", callback_data="help")
                    ]
                ]
            )
@@ -349,8 +349,8 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.DYNO_TEXT.format(total_users, chats, filters, uptime), reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back", callback_data="help"),
-                       InlineKeyboardButton("🔃", callback_data="ooooooooo")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋ", callback_data="help"),
+                       InlineKeyboardButton("♻️", callback_data="ooooooooo")
                    ]
                ]
            )
@@ -359,8 +359,8 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.DEV_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back", callback_data="about"),
-                       InlineKeyboardButton("🥳 Credits", callback_data="creditsmuhammmed")
+                       InlineKeyboardButton("🚶🏿Bᴀᴄᴋk", callback_data="about"),
+                       InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
                    ]
                ]
            )
