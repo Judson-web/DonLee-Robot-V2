@@ -474,7 +474,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})"),
+                    InlineKeyboardButton("Nᴇxᴛ ⏩", callback_data=f"navigate(0|next|{query})"),
                     InlineKeyboardButton(f"🧾 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore"),
                 ]
             )
@@ -546,15 +546,15 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 photo=movie_url,
                 caption=f"""↪️ Requested: {query}
-🎞️ Title: <a href={imdb['url']}>{imdb.get('title')}
-🎭 Genres: {imdb.get('genres')}
-📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>
-🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10
-🗃️ Total Files : {(len_results)}
-📑 Total Page : 1/{len_result if len_result < max_pages else max_pages}
-👤 Requested By : {update.from_user.mention}
-🖋 StoryLine: <code>{imdb.get('plot')} </code>"
-☑️ Chat : {update.chat.title}""",
+🎥 Tɪᴛʟᴇ: <a href={imdb['url']}>{imdb.get('title')}
+🎭 Gᴇɴʀᴇs: {imdb.get('genres')}
+📆 Yᴇᴀʀ: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>
+🌟 Rᴀᴛɪɴɢ: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10
+🗃️ Tᴏᴛᴀʟ Fɪʟᴇs : {(len_results)}
+📑 Tᴏᴛᴀʟ Pᴀɢᴇ : 1/{len_result if len_result < max_pages else max_pages}
+👤 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {update.from_user.mention}
+🖋 SᴛᴏʀʏLɪɴᴇ: <code>{imdb.get('plot')} </code>"
+💬 Cʜᴀᴛ : {update.chat.title}""",
                 reply_markup=reply_markup,
                 chat_id=update.chat.id,
                 reply_to_message_id=update.message_id,
@@ -568,10 +568,10 @@ async def auto_filter(bot, update):
               await bot.send_message(
                 chat_id = update.chat.id,
                 text=f"""↪️ Requested: {query}
-🗃️ Total Files : {(len_results)}
-📑 Total Page : 1/{len_result if len_result < max_pages else max_pages}
-👤 Requested By : {update.from_user.mention}
-☑️ Chat : {update.chat.title}
+🗃️ Tᴏᴛᴀʟ Fɪʟᴇs : {(len_results)}
+📑 Tᴏᴛᴀʟ Pᴀɢᴇ : 1/{len_result if len_result < max_pages else max_pages}
+👤 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {update.from_user.mention}
+💬 Cʜᴀᴛ : {update.chat.title}
 """,
                 reply_markup=reply_markup,
                 parse_mode="html",
