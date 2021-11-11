@@ -47,7 +47,7 @@ async def start(bot, message):
             await message.reply_text(
                 text=FORCE_SUB_TEXT.format(message.from_user.mention),
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="🔔 Join", url=f"https://t.me/{update_channel}")]       
+                    [ InlineKeyboardButton(text="🤖 ᴊᴏɪɴ ᴍʏ Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{update_channel}")]       
               ])
             )
             return
@@ -80,14 +80,14 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/donlee_robot?startgroup=true')
-              ],[
-              InlineKeyboardButton(GROUP, url=HAAAAAAAAA),
-              InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
-              ],[
-              InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-              InlineKeyboardButton('😊 About', callback_data='about')
-              ]]
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/EvaMariaBot?startgroup=true')
+            ],[
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
+            ],[
+            InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
+        ]]
         ),
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -105,20 +105,20 @@ async def help(bot, message):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                         InlineKeyboardButton("Filter♂️", callback_data="filter1"),
-                         InlineKeyboardButton("AutoFilter♂️", callback_data="autofilter1")
+                         InlineKeyboardButton("🙂 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ", callback_data="filter1"),
+                         InlineKeyboardButton("🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ", callback_data="autofilter1")
                     ],
                     [
                          InlineKeyboardButton("Extra Mode♂️", callback_data="info"),
-                         InlineKeyboardButton("Connection♂️", callback_data="connection")
+                         InlineKeyboardButton("🖇️ Connection", callback_data="connection")
                     ],
                     [
-                         InlineKeyboardButton("🤠 Status 🤠", callback_data="ooooooooo")
+                         InlineKeyboardButton("🔰 Status 🔰", callback_data="ooooooooo")
                     ],
                     [
-                         InlineKeyboardButton("🏕️ Home", callback_data="start"),
+                         InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
                          InlineKeyboardButton("🗑️ Close 🗑️", callback_data="close"),
-                         InlineKeyboardButton("About 🔥", callback_data="about")
+                         InlineKeyboardButton("😎 Aʙᴏᴜᴛ", callback_data="about")
 
                     ]
                 ]
@@ -138,21 +138,21 @@ async def about(bot, message):
                     [
                          InlineKeyboardButton
                              (
-                                 "📦 Source", callback_data="source"
+                                 "💜 Sᴏᴜʀᴄᴇ", callback_data="source"
                              ),
                          InlineKeyboardButton
                              (
-                                 "Dev 🤠", callback_data="devmuhammed"
+                                 "😎 Dᴇᴠ", callback_data="devmuhammed"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "🏕️ Home", callback_data="start"
+                                 "🏠 Hᴏᴍᴇ", callback_data="start"
                              ),
                          InlineKeyboardButton
                              (
-                                 "Close 🗑️", callback_data="close"
+                                 "🗑️ Cʟᴏsᴇ", callback_data="close"
                              )
                     ]
                 ]
@@ -171,29 +171,24 @@ async def sub(bot, message):
                     [
                          InlineKeyboardButton
                              (                                 
-                                 "📣Group", url="t.me/mo_tech_group"
+                                 "📣 Gʀᴏᴜᴘ", url="https://t.me/cineblasters"
                              ),
                          InlineKeyboardButton
                              (
-                                 "📢Channel", url="t.me/mo_tech_yt"
+                                 "📢 Cʜᴀɴɴᴇʟ", url="https://t.me/TV_SeriesCourt"
+                             )
+                    ],
+                    [
+
+                         InlineKeyboardButton
+                             (
+                                 "💥 Sᴜʙsᴄʀɪʙᴇ ʏᴏᴜᴛᴜʙᴇ Cʜᴀɴɴᴇʟ 💥", url="https://www.youtube.com/c/Storytime007"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "😟 Build a New Bot 😟", url="https://youtu.be/NrbMc93aCzA"
-                             )
-                    ],
-                    [
-                         InlineKeyboardButton
-                             (
-                                 "💥Subscribe youtube Channel💥", url="https://www.youtube.com/c/MoTech_YT"
-                             )
-                    ],
-                    [
-                         InlineKeyboardButton
-                             (
-                                 "🗑️ Close 🗑️", callback_data="close"
+                                 "🗑️ Cʟᴏsᴇ", callback_data="close"
                              )
                     ]
                 ]
@@ -221,7 +216,7 @@ async def broadcast_(c, m):
             break
     
     out = await m.reply_text(
-        text = f"Broadcast initiated! You will be notified with log file when all the users are notified."
+        text = f"Bʀᴏᴀᴅᴄᴀsᴛ ɪɴɪᴛɪᴀᴛᴇᴅ! Yᴏᴜ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴡɪᴛʜ ʟᴏɢ ғɪʟᴇ ᴡʜᴇɴ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴀʀᴇ ɴᴏᴛɪғɪᴇᴅ."
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -322,20 +317,20 @@ async def settings(bot, update):
     bot_info = await bot.get_me()
     bot_first_name= bot_info.first_name
     
-    text =f"<u>{bot_first_name}'s</u> Settings Pannel.....\n"
-    text+=f"\nYou Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel, Change Filter Types, Configure Filter Results"
+    text =f"<u>{bot_first_name}'s</u> Sᴇᴛᴛɪɴɢs Pᴀɴɴᴇʟ.....\n"
+    text+=f"\nYᴏᴜ Cᴀɴ Usᴇ Tʜɪs Mᴇɴᴜ Tᴏ Cʜᴀɴɢᴇ Cᴏɴɴᴇᴄᴛɪᴠɪᴛʏ Aɴᴅ Kɴᴏᴡ Sᴛᴀᴛᴜs Oғ Yᴏᴜʀ Eᴠᴇʀʏ Cᴏɴɴᴇᴄᴛᴇᴅ Cʜᴀɴɴᴇʟ, Cʜᴀɴɢᴇ Fɪʟᴛᴇʀ Tʏᴘᴇs, Cᴏɴғɪɢᴜʀᴇ Fɪʟᴛᴇʀ Rᴇsᴜʟᴛs"
     
     buttons = [[
-        InlineKeyboardButton("📣 Channels 📣", callback_data=f"channel_list({chat_id})")
+        InlineKeyboardButton("📣 Cʜᴀɴɴᴇʟs", callback_data=f"channel_list({chat_id})")
         ],[
-        InlineKeyboardButton("📚 Filter Types 📚", callback_data=f"types({chat_id})")
+        InlineKeyboardButton("🧐 Fɪʟᴛᴇʀ Tʏᴘᴇs", callback_data=f"types({chat_id})")
         ],[
-        InlineKeyboardButton("🛠 Configure 🛠", callback_data=f"config({chat_id})")
+        InlineKeyboardButton("🛠 Cᴏɴғɪɢᴜʀᴇ", callback_data=f"config({chat_id})")
         ],[
-        InlineKeyboardButton("👩‍👦‍👦 Group Status", callback_data=f"status({chat_id})"), 
-        InlineKeyboardButton("🤖 Bot Status", callback_data=f"about({chat_id})")
+        InlineKeyboardButton("🤓 Gʀᴏᴜᴘ Sᴛᴀᴛᴜs", callback_data=f"status({chat_id})"), 
+        InlineKeyboardButton("🤖 Bᴏᴛ Sᴛᴀᴛᴜs", callback_data=f"about({chat_id})")
         ],[
-        InlineKeyboardButton("🔐 Close 🔐", callback_data="close")
+        InlineKeyboardButton("🗑️ Cʟᴏsᴇ", callback_data="close")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
