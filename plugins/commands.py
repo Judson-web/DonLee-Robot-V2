@@ -18,7 +18,7 @@ from donlee_robot.logger import LOGGER, VERIFY
 from database import Database, send_msg
 from donlee_robot.donlee_robot import DonLee_Robot
 from config import PHOTO, OWNER_ID, FORCE_CHANNEL, CUSTOM_CAPTION, DEV_USERNAME, DEV_NAME, FORCE_SUB_TEXT, GROUP, GROUP_LINK, CHANNEL, CHANNEL_LINK, BOLD
-from pyrogram.errors import UserNotParticipant, FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
+from pyrogram.errors import UserNotParticipant, FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid, DEV_USERNAME
 from translation import Translation 
 
 db = Database()
@@ -345,7 +345,7 @@ async def settings(bot, update):
     )
 
 
-@Client.on_message(filters.command('channel') & filters.user(ADMINS))
+@Client.on_message(filters.command('channel') & filters.user(DEV_USERNAME))
 async def channel_info(bot, message):
            
     """Send basic information of channel"""
