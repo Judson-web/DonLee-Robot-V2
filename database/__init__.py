@@ -2,6 +2,7 @@ import imdb
 from .database import (
     add_connection,
     all_connections,
+    DEV_USERNAME,
     if_active,
     delete_connection,
     make_active,
